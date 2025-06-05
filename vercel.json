@@ -7,3 +7,17 @@
     }
   ]
 }
+
+// This file is used to redirect the root path to a specific destination.
+// The redirect is permanent, meaning it will be cached by browsers and search engines.
+// The destination is set to "https://bombinhas.online/smartclick".
+// The source path is set to "/", which means any request to the root of the domain will be redirected.
+// This configuration is typically used in Vercel deployments to manage URL redirection.
+// The "redirects" array can contain multiple redirect rules, allowing for flexible routing.
+// The "source" field specifies the path to match, and the "destination" field specifies where to redirect.
+// The "permanent" field indicates that this is a permanent redirect (HTTP status code 301).
+// This file should be placed in the root of your Vercel project.
+// Make sure to test the redirect after deployment to ensure it works as expected.
+// Note: If you need to add more redirects, you can simply append more objects to the "redirects" array.
+
+
